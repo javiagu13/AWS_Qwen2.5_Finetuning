@@ -61,3 +61,7 @@ This repository has been extensively tested and used for training the **Qwen 2.5
 ## 🛡️ Disclaimer
 
 To use this repository effectively, familiarity with AWS services (e.g., EC2, training jobs) and deep learning tools (e.g., PyTorch, DeepSpeed) is recommended.
+
+## Use
+
+The codes ending with CPPE-5 have been thoroughly tested and used for finetuning. It is recommended to use those two codes (Training and AWQ codes). The main idea behind this is to train on CPPE-5 dataset. If you want to use other dataset. create a dataset in huggingface and update the code.
